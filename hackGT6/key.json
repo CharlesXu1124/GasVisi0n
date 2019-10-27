@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "extract-gas-prices",
+  "private_key_id": "e35757f37798f2b87535250968e7d6d1873b76fb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+frwV8IGuc+Rd\nMlqVVq2zewCC7JPLuQGIjCVEjo49kIr8ufIl7ncSRXX017q8VppBYSZU3szv7n36\nGSLgRq1xZH3QGyfc7lHr7d6NR+fXS0QLE8U8drnGvIzBvYiawZ/S7IClKdi3ofok\nrS5+0BcTIf1quL/seJIpx9Z4GopSxaW0vf1R28UY5jJgKnW3QTiDYLV3NvERw2Uk\nc1BbPFmxixq9HPGXHRqcvKXX9KgL7HptE7mIxT3rmOAkELSxz6nEw1rVFsdQflI3\nAcrSL3k7j7mLtsKbYVynmNARCPX2u2bVsJCoWiRl8XxTJM8gDNeFHNPaQS90ZH42\nG3gpk+0fAgMBAAECggEAEgdXkLH+6/5O5h0eYpTeAqcJANsYD8dWJFCzND5TqvLz\nnICSsNFVVpbZV49VPn7pwXdK0+x0M9778EARw20c/CbZG2l+h9PMUApmrjNYd1FJ\nwsyftZ287lio76sa8x6RHDrC4B7KQnLjhDYZuOnDzU1BuSh8DYrJtoeRvjMw1S1y\nhO9Xhfsl9J4njG0G98Co2zvxqkPnYvVs6KRWKihQ5HEuMmfECRyq0E6ievK+kQYA\nTZMPGzkPsN9LPf1sQhHH0hGP0GkgPTJvmKpUR9vh5FYtC8l8hDwB6jA+l3jihCv7\nypbmw4zLuzHCgZzPUwaoY3oqYTIW2kf1J+g+4/hb9QKBgQDzt9Q5fDYREyWCnH8w\nkoyiHMD9tkUQhQIntf9gzVRHQXbp9WhjQnBPH2+sSVCIz8kOJysoODvJp0s7ZANt\nGzA/XttFBifHJkJLCYrJQSW98p8Nl2CRkHjmjOFTCZHIvarFaNhFVEaHDFxDlVR/\nxVb9oN0A8GyMowaScvp8ME2mBQKBgQDIGEiH9Cl+IPKPF8gaqUVu2C0QTDhTNrpF\nKuCzK9IHolOaENK6vwytPKXIr4wuw25CYI5rH/NtirzJ8luQyZ1gijYuCYDgVGNp\nYlbrBfrx+/D3KBew0RpwB290SnQkvSQH3QoY1QNcohnjOkg2bosIgTCz9sAkQehL\nJrnup3Br0wKBgQDAp8pNftDGgpoeO1OXs+ETrSMp69GAk4P2nDm57dX3VdqIawQP\nos9g3HrMeE//NjG6zF+jNYCdkW85DYBf2SQ0k+lFEO6U0LuK0YoyORt6obX1anpd\n1xSbOzZLC7+ALd42mwCLHWl7C9xLWFopfnebmnPZcDR+n8hsMBOt5AkdeQKBgBLd\nj0EaOStGKfhp0pkI6p33zc/ij9DwsQFCeKsL76J+oIk/Gs82ohhXRn40ZvAlxuiF\nOAhLm+TxFrmnmxB8odTvUwpmJPuBmVnfRrij+LQGAAMdiZZHMMntOYnqVyb7mkEP\nixsqQkXilrRA03wmUf98Rr5A/n6spB0pypAAw223AoGAJOfBr0D82ANojemFbU5m\nspUU3pKPvAqK0uNT7DU90dgiQqMQurezBWHhDmwtEffqOxfTr15VJpvqxgRcc/3U\nF9CyigtQAtDDPAt/awZzyhsDGScFyR+oKE7fuybCvBMu2hdXm94Ru0q9g35IeLxl\nXn8jpV05dEFSYgH6hl0wLZ8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-vision-sa@extract-gas-prices.iam.gserviceaccount.com",
+  "client_id": "109333487468008042180",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-vision-sa%40extract-gas-prices.iam.gserviceaccount.com"
+}
