@@ -11,17 +11,13 @@ import io
 from difflib import SequenceMatcher
 import cv2
 import random
-from firebase import firebase
-
-# set up firebase
-firebase = firebase.FirebaseApplication('https://xuzheyuan1014.firebaseio.com/', None)
-
-
 warnings.filterwarnings('ignore')
 
 
 dictionary = ["regular", "plus", "supreme", "premium", "silver", "ultimate", "reg", "spec", "sup", "super", "special", "diesel", "V-Power", "unleaded", "unlead"]
 dictionary = [d.title() for d in dictionary]
+# label_list = []
+# price_list = []
 
 
 def char_match(s1, s2):
@@ -97,7 +93,7 @@ def optimize_image(iteration):
     cv2.imwrite(f'temp_{iteration}.jpg', resized)
 
 
-def main(iteration):
+def detect(iteration):
     label_list = []
     price_list = []
 
@@ -124,7 +120,7 @@ def main(iteration):
 
 
     for text in response.text_annotations:
-        # preprocessing text to extract prices
+        # preprocessing text to eliminate any punctuation literals
         word = text.description
         f = re.findall(r"[2-5]\.?[0-9]?[0-9]", word)
         # print(f)
@@ -142,18 +138,23 @@ def main(iteration):
             vects = text.bounding_poly.vertices
             draw.rectangle([(vects[0].x, vects[0].y), vects[2].x, vects[2].y], width = 2, outline='green', fill=None)
             # print(vertices)
-            
+            '''
             draw.polygon(text.bounding_poly.vertices, None, 'red')
-            
+            '''
             
             # print(f'"{text.description}"')
             # print(f'bounds: {",".join(vertices)}')
     print(label_list, price_list)
+    
+        
     img.show()
     return (label_list, price_list)
     
 
 #img.show()
-main(1)
+price_list, label_list = detect(1)
+while len(price_list) != len(label_list):
+    # i.e. if the detection results are likely to be incorrect
+    price_list, label_list = detect(1)
 
 
